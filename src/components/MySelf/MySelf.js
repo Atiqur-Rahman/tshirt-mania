@@ -1,4 +1,5 @@
 import React from 'react';
+import Special from '../Special/Special';
 
 const MySelf = ({ house }) => {
     return (
@@ -7,6 +8,7 @@ const MySelf = ({ house }) => {
             <p>
                 <small>{house}</small>
             </p>
+            <Special></Special>
         </div>
     );
 };

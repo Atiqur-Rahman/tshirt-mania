@@ -1,17 +1,16 @@
 import React, { useContext } from 'react';
 import { RingContext } from '../Grandpa/Grandpa';
 
-const Aunty = ({ house }) => {
+const Special = () => {
     const ring = useContext(RingContext);
     return (
         <div>
-            <h4>Aunty</h4>
-            <p>House: {house}</p>
+            <h5>Special</h5>
             <p>
-                <small>gift: {ring}</small>
+                <small>Gift: {ring}</small>
             </p>
         </div>
     );
 };
 
-export default Aunty;
+export default Special;
